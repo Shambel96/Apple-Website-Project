@@ -1,0 +1,107 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+header li {
+  list-style-type: none;
+}
+header {
+  background-color: black;
+}
+
+header ul {
+  justify-content: space-between;
+}
+.width-logo {
+  width: 30%;
+  padding-bottom: 60px;
+  float: center;
+}
+.servant {
+  width: 20%;
+}
+.header ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  &:hover {
+    color: white;
+  }
+}
+header img {
+  width: 30%;
+}
+.first-section {
+  background-color: #f4f4fa;
+}
+
+.second-section {
+  background-image: url("images/home/iphone11-pro-bg.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: 100% auto;
+  background-attachment: scroll;
+  color: aliceblue;
+  background-repeat: no-repeat;
+}
+.third-section {
+  background-image: url("images/home/iphone11-bg.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.right-wrapper-section5 {
+  background-image: url("images/home/apple-card.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.left-wrapper-section5 {
+  background-image: url("images/home/watch-series-5.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.left-wrapper6 {
+  background-color: #fff;
+  background-image: url("images/home/apple-tv-background.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.right-wrapper6 {
+  background-image: url("images/home/air-pods.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+.left-section7-wrapper {
+  background-image: url("images/home/macbook-pro.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+  background-size: 300px auto;
+  background-attachment: scroll;
+}
+.right-section7-wrapper {
+  background-image: url("images/home/new-ipad.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
